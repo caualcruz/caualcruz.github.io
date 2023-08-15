@@ -1,0 +1,41 @@
+/* css
+
+NOSSA FOLHA DE ESTILIZAÇÃO DA PÁGINA HTMLLLL
+
+*/
+body{
+    font-size: 1.5em;
+    background-color: rgb(60, 65, 71); 
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+
+#grupo{
+    width: 700px;
+    border-radius: 13px;
+    background-color: rgb(117, 117, 117);
+    padding: 30px;
+}
+
+.div1{
+    background-color: rgb(61, 62, 66);
+    border-radius: 13px;
+    padding: 10px;
+    color: aliceblue;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+.outraBorda {
+    background-color: rgb(61, 62, 66);
+    border-radius: 13px;
+    padding: 10px;
+    margin-bottom: 20px;    
+}
+
+
+
+
