@@ -4,7 +4,17 @@
  .fb{
     background-color: rgb(117, 117, 117);
     padding: 13px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius: 15px;
+    color: aliceblue;
  }
+ .sb{
+   background-color: rgb(117, 117, 117);
+   padding: 13px;
+   margin-left: 100px;
+   margin-right: 100px;
+   border-radius: 15px
+ }
+ 
+ 

@@ -4,13 +4,22 @@ NOSSA FOLHA DE ESTILIZAÇÃO DA PÁGINA HTMLLLL
 
 */
 body{
+    padding: 200px;
     font-size: 1.5em;
-    background-color: rgb(60, 65, 71); 
+    background-color: rgb(53, 66, 89); 
     justify-content: center;
     text-align: center;
     display: flex;
     align-items: center;
+    font-family: Arial;
+}
+p{
     color: aliceblue;
+}
+
+h1{
+    color: lightgray;
+    font-size: 25px;
 }
 
 #grupo{
@@ -20,14 +29,16 @@ body{
     padding: 30px;
 }
 
-.div1{
-    background-color: rgb(61, 62, 66);
-    border-radius: 13px;
-    padding: 10px;
-    color: aliceblue;
+button{
+border-radius: 13px;
+background-color: rgb(60, 65, 71);
+color: aliceblue;
+padding: 13px;
 }
+
 a{
-    color: rgb(0, 0, 0);
+    text-decoration: none;
+    color: aliceblue;
 }
 .outraBorda {
     background-color: rgb(61, 62, 66);
