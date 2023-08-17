@@ -1,0 +1,10 @@
+ body{
+    display: block;
+ }
+ .fb{
+    background-color: rgb(117, 117, 117);
+    padding: 13px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 15px;
+ }
