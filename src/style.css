@@ -15,11 +15,11 @@ body{
 }
 p{
     color: aliceblue;
+    font-size: 25px;
 }
 
 h1{
     color: lightgray;
-    font-size: 25px;
 }
 
 #grupo{
