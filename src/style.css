@@ -31,9 +31,14 @@ h1{
 
 button{
 border-radius: 13px;
-background-color: rgb(60, 65, 71);
+background-color: rgba(117, 117, 117, 0.2);
 color: aliceblue;
 padding: 13px;
+transition: all 0.5s;
+}
+
+button:hover{
+    background-color: rgb(61, 62, 66);
 }
 
 a{
@@ -46,7 +51,5 @@ a{
     padding: 10px;
     margin-bottom: 20px;    
 }
-
-
 
 
