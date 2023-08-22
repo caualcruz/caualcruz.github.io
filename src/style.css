@@ -25,7 +25,7 @@ h1{
 #grupo{
     width: 700px;
     border-radius: 13px;
-    background-color: rgb(117, 117, 117);
+    background-color: rgba(117, 117, 117, 0.2);
     padding: 30px;
 }
 
