@@ -14,5 +14,68 @@
    width: 50;
    border-radius: 15px
  }
+
+
+
+
+ section{
+ }
+ 
+
+
+ #sec1{
+   background-color: rgba(117, 117, 117, 0.2);
+   border-radius: 13px;
+   padding-left: 15px;
+   padding-right: 15px;
+   display: flex;
+   text-align: center;
+text-align: right;
+
+ }
  
  
+ #sec2{
+
+   background-color: rgba(117, 117, 117, 0.2);
+   border-radius: 13px;
+   padding-left: 15px;
+   padding-right: 15px; 
+   display: flex;
+   text-align: center;
+text-align: right;  
+ }
+
+ 
+ #sec3{
+
+   background-color: rgba(117, 117, 117, 0.2);
+   border-radius: 13px;
+   padding-left: 15px;
+   padding-right: 15px;   
+   display: flex;
+   text-align: center;
+text-align: right;
+ }
+
+ .conteudo{
+   width: 60%;
+ }
+
+aside img{
+   width: 50%;
+}
+
+ aside{
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+
+ }
+
+ .conteudo p{
+   margin: 50px;
+   text-align: justify;
+ }

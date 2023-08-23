@@ -35,10 +35,13 @@ background-color: rgba(117, 117, 117, 0.2);
 color: aliceblue;
 padding: 13px;
 transition: all 0.5s;
+width: 120px;
+border-color: rgb(108, 108, 153);
 }
 
 button:hover{
     background-color: rgb(61, 62, 66);
+    width: 150px;
 }
 
 a{
