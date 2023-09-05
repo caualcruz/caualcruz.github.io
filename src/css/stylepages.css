@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(37, 34, 34);
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-align: center;    
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(37, 34, 34);
+}
+
+img{
+    height: 200px;
+    border-radius: 8px;
+}
+
+.filme1{
+    background-color:  rgb(83, 77, 77);
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 700px;
+    padding: 20px;
+}
+
+.you{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 500px;
+}
+
+.you img{
+    margin-left: 90px;
+}
+
+.arrow{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 500px;
+}
+.arrow img{
+    margin-left: 90px;
+    height: 230px;
+}
+
+.filme2{
+    background-color:  rgb(83, 77, 77);
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 700px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.b99{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 500px;
+    }
+    .b99 img{
+        margin-left: 90px;
+        height: 230px;
+    }
+    
+    .filme3{
+        background-color:  rgb(83, 77, 77);
+        height: 300px;
+        padding-top: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 700px;
+        padding: 20px;
+        margin-top: 40px;
+    }
+
+    .futebol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 500px;
+       
+    }
+
+    .esporte1{
+        background-color:  rgb(83, 77, 77);
+        height: 400px;
+        padding-top: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 700px;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .futebol img{
+        margin-left: 90px;
+        height: 230px;
+    }
+
+    .futsal{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 500px;
+       
+    }
+
+    .esporte2{
+        background-color:  rgb(83, 77, 77);
+        height: 400px;
+        padding-top: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 700px;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .futsal img{
+        margin-left: 90px;
+        height: 230px;
+    }
+
+    .volei{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 500px;
+       
+    }
+
+    .esporte3{
+        background-color:  rgb(83, 77, 77);
+        height: 400px;
+        padding-top: 20px;
+        border-radius: 20px;
+        font-size: 20px;
+        width: 700px;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .volei img{
+        margin-left: 90px;
+        height: 190px;
+    }

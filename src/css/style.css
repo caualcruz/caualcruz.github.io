@@ -47,7 +47,7 @@ header {
 
 nav a:hover {
 
-    color: aqua;
+    color: rgb(0, 196, 75);
     transition: 1.5s;
 }
 
@@ -101,7 +101,7 @@ section {
 
 .padding-64 {
     padding-top: 64px !important;
-    padding-bottom: 64px !important
+    padding-bottom: 64px !important;
 }
 
 h1,
@@ -150,6 +150,7 @@ section p.justify {
 
 #sobre {
     background-color: rgb(83, 77, 77);
+    font-size: 20px;
 }
 
 #projetos {
@@ -175,6 +176,38 @@ h2 {
     font-size: 20px;
 }
 
+.borda-artigos{
+    background-color: rgb(37, 34, 34) ;
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+.borda-artigos-filmes{
+    background-color: rgb(37, 34, 34) ;
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-size: 20px; 
+    margin-left: 40px; 
+}
+
+.borda-artigos-esportes{
+    background-color: rgb(37, 34, 34) ;
+    height: 300px;
+    padding-top: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.org-artigos-d{
+    display: flex;
+    justify-content: center;
+    
+}
+
 button {
     margin: 20px;
     background-color: rgb(194, 194, 194);
@@ -183,6 +216,7 @@ button {
     padding-right: 20px;
     border-radius: 15px;
     transition: 0.65s;
+    border: transparent;
 }
 
 button:hover {
@@ -192,21 +226,25 @@ button:hover {
 
 #artigos{
     background-color: rgb(83, 77, 77);
+    padding: 40%;
+    justify-content: center;
+
 }
 
 #contato{
     background-color: rgb(37, 34, 34);
+    height: 300px;
 }
 .icons{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 90px;
-    padding: 150px;
+    padding-top: 20px;
 }
 
 footer{
-    background-color: aqua;
+   height: 2px;
 }
 
 .icons img:hover{
@@ -215,3 +253,4 @@ footer{
 img{
     height: 100px;
 }
+
