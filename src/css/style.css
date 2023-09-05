@@ -178,16 +178,18 @@ h2 {
 
 .borda-artigos{
     background-color: rgb(37, 34, 34) ;
-    height: 300px;
     padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 20px;
     font-size: 20px;
     
 }
 .borda-artigos-filmes{
     background-color: rgb(37, 34, 34) ;
-    height: 300px;
     padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 20px;
     font-size: 20px; 
     margin-left: 40px; 
@@ -195,7 +197,8 @@ h2 {
 
 .borda-artigos-esportes{
     background-color: rgb(37, 34, 34) ;
-    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 20px;
     border-radius: 20px;
     font-size: 20px;
