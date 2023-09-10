@@ -257,3 +257,7 @@ img{
     height: 100px;
 }
 
+
+html{
+scroll-behavior: smooth;
+}
