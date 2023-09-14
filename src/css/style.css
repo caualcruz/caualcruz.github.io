@@ -262,6 +262,8 @@ html{
 scroll-behavior: smooth;
 }
 
+#img1{}
+
 #img1 :hover{
     height: 110px;
 }
