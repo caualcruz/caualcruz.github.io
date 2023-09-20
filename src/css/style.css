@@ -29,7 +29,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+.header1 {
     top: 0;
     background-color:rgba(5, 5, 5, 0.15);
     color: white;
@@ -119,6 +119,10 @@ p {
     color: white;
 }
 
+#pf{
+    color: black;
+}
+
 h2 {
     font-size: 30px;
 }
@@ -127,6 +131,13 @@ h2 {
     text-align: justify;
 }
 
+.size{
+    padding: 50px;
+}
+
+.imgOrg{
+height: 20px;
+}
 
 .center {
     text-align: center;
@@ -211,7 +222,7 @@ h2 {
     
 }
 
-button {
+.buttonOrg {
     margin: 20px;
     background-color: rgb(194, 194, 194);
     height: 50px;
@@ -220,6 +231,7 @@ button {
     border-radius: 15px;
     transition: 0.65s;
     border: transparent;
+    font-size: 14px;
 }
 
 button:hover {
@@ -234,7 +246,7 @@ button:hover {
 
 }
 
-#contato{
+.contato1{
     background-color: rgb(37, 34, 34);
     height: 300px;
 }
@@ -262,7 +274,6 @@ html{
 scroll-behavior: smooth;
 }
 
-#img1{}
 
 #img1 :hover{
     height: 110px;
