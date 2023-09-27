@@ -194,8 +194,28 @@ h2 {
     padding-right: 30px;
     border-radius: 20px;
     font-size: 20px;
-    
 }
+
+.borda-artigos1{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+.carousel-item{
+    width: 100%;
+}
+
+.cardbox{
+    height:100%;
+}
+
 .borda-artigos-filmes{
     background-color: rgb(37, 34, 34) ;
     padding-top: 20px;
@@ -222,27 +242,52 @@ h2 {
     
 }
 
+#mscimg{
+    background-image: url(../img/pexels-burst-374876.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    padding: 90px;
+}
+
+#fmlimg{
+    background-image: url(../img/pexels-tima-miroshnichenko-7991579.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    padding: 90px;
+}
+
+#espimg{
+    background-image: url(../img/pexels-tembela-bohle-1884574.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 340px;
+    padding: 90px;
+}
+
 .buttonOrg {
     margin: 20px;
-    background-color: rgb(194, 194, 194);
+    background-color:rgba(0, 0, 0, 0.16);
     height: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 15px;
+    border-radius: 50px;
     transition: 0.65s;
     border: transparent;
     font-size: 14px;
+    color: white;
 }
 
 button:hover {
-    background-color: rgb(99, 99, 99);
+    background-color:rgba(0, 0, 0, 0.8);
     color: white;
 }
 
 #artigos{
     background-color: rgb(83, 77, 77);
-    padding: 40%;
-    justify-content: center;
+
+   
 
 }
 
