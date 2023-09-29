@@ -314,11 +314,9 @@ img{
     height: 100px;
 }
 
-
 html{
 scroll-behavior: smooth;
 }
-
 
 #img1 :hover{
     height: 110px;
