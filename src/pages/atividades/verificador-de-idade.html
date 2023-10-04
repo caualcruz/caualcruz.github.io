@@ -21,6 +21,8 @@
 
     <p id="compNum"></p>
 
+    <button onclick="compN()">Salvar</button>
+
     <!-- ATIVIDADE 03 -->
     <h1>Verificador de Divisibilidade</h1>
     <p><input type="number" id="di1"></p>
@@ -38,14 +40,20 @@
        <button onclick="vTemp()">Salvar</button>
  
        <!-- ATIVIDADE 05 -->
-   
-       
-       <!-- ATIVIDADE 06 -->
+          
+        <!-- ATIVIDADE 06  -->
        <h1>Calcudarora de Fatorial</h1>
        <p><input type="number" id="fa"></p>
-       <p id="reFat"></p>
+       <p id="reF"></p>
    
-       <button onclick="cFat()">Salvar</button>
+      <button onclick="cFat()">Salvar</button>
+          
+        <!-- ATIVIDADE 08  -->
+       <h1>Tabuada</h1>
+       <p><input type="number" id="ta"></p>
+       <p id="reT"></p>
+   
+      <button onclick="cTa()">Salvar</button>
 
     <script>
         //ATIVIDADE 01
@@ -64,8 +72,8 @@
 
         //ATIVIDADE 02  
         function compN() {
-            let n1 = document.getElementById('nu1').value
-            let n2 = document.getElementById('nu2').value
+            let n1 = parseFloat(document.getElementById('nu1').value)
+            let n2 = parseFloat(document.getElementById('nu2').value)
             
             if (n1>n2) {
                 document.getElementById('compNum').innerText = "O primeiro número é maior que o segundo";
@@ -103,17 +111,24 @@
 
         //ATIVIDADE 05
 
-        //ATIVIDADE 06
-            // function cFat() {
-            // let f = document.getElementById('fa').value
-            // let i = 0;
-            // while (i < f) {
-            //     i++
-            //     f += i
-            // }
+        //ATIVIDADE 06      
+        function cFat() {
+            let f = document.getElementById('fa').value
+            let resu = f
             
-            // document.getElementById('reFat').innerText = "O fatorial de " + fa +"é "+ f;
-            // }
+            for (let i = 1; i < f; i++){
+                resu = resu * i
+               
+            }
+            document.getElementById('reF').innerText = resu;
+            }
+
+            function cTa() {
+                let t = document.getElementById('ta').value;
+                resuT = t * 1 + t *2 + t *3 + t *4 + t *5 + t *6 + t *7 + t *8 + t *9;
+               
+                document.getElementById('reT').innerText = resuT
+            }
     </script>    
 
 </body>
