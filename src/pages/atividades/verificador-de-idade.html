@@ -49,11 +49,11 @@
       <button onclick="cFat()">Salvar</button>
           
         <!-- ATIVIDADE 08  -->
-       <h1>Tabuada</h1>
-       <p><input type="number" id="ta"></p>
-       <p id="reT"></p>
+       <h1>Contagem regressivaaaaa</h1>
+       <p><input type="number" id="cRe"></p>
+       <p id="cReg"></p>
    
-      <button onclick="cTa()">Salvar</button>
+      <button onclick="cR()">Salvar</button>
 
     <script>
         //ATIVIDADE 01
@@ -121,14 +121,28 @@
                
             }
             document.getElementById('reF').innerText = resu;
+
+            
             }
 
-            function cTa() {
-                let t = document.getElementById('ta').value;
-                resuT = t * 1 + t *2 + t *3 + t *4 + t *5 + t *6 + t *7 + t *8 + t *9;
+            //ATIVIDADE 07
+
+            function cR() {
+                let t = document.getElementById('cRe').value;
+                let contR = 0;
+                
+                while (contR != 1) {
+                    contR = t--;
+
+                    document.getElementById('cReg').innerHTML += contR + "-"; 
+                }
                
-                document.getElementById('reT').innerText = resuT
+                
             }
+
+
+
+        
     </script>    
 
 </body>
