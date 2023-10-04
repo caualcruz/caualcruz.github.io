@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ATIVIDADE 01 -->
+    <h1>Verificador de Idade</h1>
+    <p><input type="number" id="idad"></p>
+
+    <p id="resultIdade"></p>
+
+    <button onclick="idd()">Salvar</button>
+
+    <!-- ATIVIDADE 02 -->
+    <h1>Comparador de números</h1>
+    <p><input type="number" id="nu1"></p>
+    <p><input type="number" id="nu2"></p>
+
+    <p id="compNum"></p>
+
+    <!-- ATIVIDADE 03 -->
+    <h1>Verificador de Divisibilidade</h1>
+    <p><input type="number" id="di1"></p>
+    <p><input type="number" id="di2"></p>
+
+    <p id="veriDiv"></p>
+
+    <button onclick="vDiv()">Salvar</button>
+
+       <!-- ATIVIDADE 04 -->
+       <h1>Verificador de Temperatura</h1>
+       <p><input type="number" id="te"></p>
+       <p id="veriTemp"></p>
+   
+       <button onclick="vTemp()">Salvar</button>
+ 
+       <!-- ATIVIDADE 05 -->
+   
+       
+       <!-- ATIVIDADE 06 -->
+       <h1>Calcudarora de Fatorial</h1>
+       <p><input type="number" id="fa"></p>
+       <p id="reFat"></p>
+   
+       <button onclick="cFat()">Salvar</button>
+
+    <script>
+        //ATIVIDADE 01
+        function idd(){
+            let idade = document.getElementById('idad').value
+        document.getElementById('resultIdade').innerText = idade;
+
+            if (idade < 18) {
+                document.getElementById('resultIdade').innerText = "Pessoa menor de idade";
+            } else if(idade < 65){
+                document.getElementById('resultIdade').innerText = "Pessoa adulta";
+            } else{
+                document.getElementById('resultIdade').innerText = "Pessoa idosa";
+            }
+        }
+
+        //ATIVIDADE 02  
+        function compN() {
+            let n1 = document.getElementById('nu1').value
+            let n2 = document.getElementById('nu2').value
+            
+            if (n1>n2) {
+                document.getElementById('compNum').innerText = "O primeiro número é maior que o segundo";
+            } else if(n1<n2) {
+                document.getElementById('compNum').innerText = "O primeiro número é menor que o segundo";
+            } else {
+                document.getElementById('compNum').innerText = "Os números são iguais";
+            }
+        }
+
+         //ATIVIDADE 03 
+            function vDiv(){
+                let d1 = document.getElementById('di1').value
+                let d2 = document.getElementById('di2').value
+                
+                if (d1%d2 === 0) {
+                    document.getElementById('veriDiv').innerText = "O primeiro número é divisível pelo segundo";
+                } else {
+                    document.getElementById('veriDiv').innerText = "O primeiro número não é divisível pelo segundo";
+                        }
+                 }
+
+         //ATIVIDADE 04       
+            function vTemp(){
+            let temp = document.getElementById('te').value
+
+            if (temp < 18) {
+                document.getElementById('veriTemp').innerText = "Está um dia frio";
+            } else if(temp < 26){
+                document.getElementById('veriTemp').innerText = "Está um dia agradável";
+            } else {
+                document.getElementById('veriTemp').innerText = "Está um dia quente";
+            }
+        }
+
+        //ATIVIDADE 05
+
+        //ATIVIDADE 06
+            // function cFat() {
+            // let f = document.getElementById('fa').value
+            // let i = 0;
+            // while (i < f) {
+            //     i++
+            //     f += i
+            // }
+            
+            // document.getElementById('reFat').innerText = "O fatorial de " + fa +"é "+ f;
+            // }
+    </script>    
+
+</body>
+</html>
