@@ -48,12 +48,19 @@
    
       <button onclick="cFat()">Salvar</button>
           
-        <!-- ATIVIDADE 08  -->
+        <!-- ATIVIDADE 07  -->
        <h1>Contagem regressivaaaaa</h1>
        <p><input type="number" id="cRe"></p>
        <p id="cReg"></p>
    
       <button onclick="cR()">Salvar</button>
+          
+        <!-- ATIVIDADE 08  -->
+       <h1>Tabuada</h1>
+       <p><input type="number" id="ta"></p>
+       <p id="rTa"></p>
+   
+      <button onclick="tab()">Salvar</button>
 
     <script>
         //ATIVIDADE 01
@@ -110,6 +117,7 @@
         }
 
         //ATIVIDADE 05
+        
 
         //ATIVIDADE 06      
         function cFat() {
@@ -126,7 +134,6 @@
             }
 
             //ATIVIDADE 07
-
             function cR() {
                 let t = document.getElementById('cRe').value;
                 let contR = 0;
@@ -140,6 +147,17 @@
                 
             }
 
+            //ATIVIDADE 08
+            function tab(){
+                let tabu = document.getElementById('ta').value;
+                
+
+                for (let tA = 0; tA <= 10; tA++) {
+                    let rTab = tabu * tA;
+                    
+                    document.getElementById('rTa').innerHTML += rTab + " - "
+                }
+            }
 
 
         
