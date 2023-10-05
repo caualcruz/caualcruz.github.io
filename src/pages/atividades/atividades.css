@@ -3,6 +3,35 @@ body{
 
 }
 
-.inputOrg{
-margin-left: 10px;
+input{
+    height: 25px;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+button{
+    height: 40px;
+    width: 90px;
+    padding: 7px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.orgDiv{
+    background-color: rgb(51, 51, 51);
+    box-shadow: 0 0rem 0.9rem 0  rgb(63, 63, 63);
+    margin: 29px;
+    padding-bottom: 30px;
+    border-radius: 20px;
 }

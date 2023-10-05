@@ -3,83 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/stylepages.css">
     <link rel="stylesheet" href="./atividades.css">
     <title>Atividades</title>
 </head>
 <body>
     <!-- ATIVIDADE 01 -->
-    <h1>Verificador de Idade</h1>
-    <p><input type="number" id="idad"></p>
-
-    <p id="resultIdade"></p>
-
-    <button onclick="idd()">Salvar</button>
+    <div class="orgDiv">
+        <h1>Verificador de Idade</h1>
+        <p><input type="number" id="idad" placeholder="Insira a idade"></p>
+        <p id="resultIdade"></p>
+        <button onclick="idd()">Verificar</button>
+    </div>
 
     <!-- ATIVIDADE 02 -->
-    <h1>Comparador de números</h1>
-    <p><input type="number" id="nu1"> <input type="number" id="nu2"></p>
-    
-
-    <p id="compNum"></p>
-
-    <button onclick="compN()">Salvar</button>
+    <div class="orgDiv">
+        <h1>Comparador de números</h1>
+        <p class="inputOrg"><input type="number" id="nu1" placeholder="Insira o 1° número"> <input type="number" id="nu2" placeholder="Insira o 2° número"></p>
+        
+        <p id="compNum"></p>
+        <button onclick="compN()">Comparar</button>
+    </div>
 
     <!-- ATIVIDADE 03 -->
-    <h1>Verificador de Divisibilidade</h1>
-    <p><input type="number" id="di1"> <input type="number" id="di2"></p>
-    
-
-    <p id="veriDiv"></p>
-
-    <button onclick="vDiv()">Salvar</button>
+    <div class="orgDiv">
+        <h1>Verificador de Divisibilidade</h1>
+        <p><input type="number" id="di1" placeholder="Insira o 1° número"> <input type="number" id="di2" placeholder="Insira o 2° número"></p>
+        
+        <p id="veriDiv"></p>
+        <button onclick="vDiv()">Verificar</button>
+    </div>
 
        <!-- ATIVIDADE 04 -->
-       <h1>Verificador de Temperatura</h1>
-       <p><input type="number" id="te"></p>
-       <p id="veriTemp"></p>
-   
-       <button onclick="vTemp()">Salvar</button>
+       <div class="orgDiv">
+           <h1>Verificador de Temperatura</h1>
+           <p><input type="number" id="te" placeholder="Indique a temperatura"></p>
+           <p id="veriTemp"></p>
+           <button onclick="vTemp()">Verificar</button>
+       </div>
  
        <!-- ATIVIDADE 05 -->
-       <h1>Verificador de Notas</h1>
-       <p><input type="number" placeholder="1° Tri. Matemática" id="mt1"></p>   
-       <input type="number" placeholder="2° Tri. Matemática" id="mt2"></p>   
-       <p><input type="number" placeholder="3° Tri. Matemática" id="mt3"></p>  
-       <p id="rNotas1"></p> 
-
-       <p><input type="number" placeholder="1° Tri. Hisória" id="hs1"></p>   
-       <p><input type="number" placeholder="2° Tri. Hisória" id="hs2"></p>   
-       <p><input type="number" placeholder="3° Tri. Hisória" id="hs3"></p>
-       <p id="rNotas2"></p>
-          
-       <p><input type="number" placeholder="1° Tri. Português" id="pt1"></p>   
-       <p><input type="number" placeholder="2° Tri. Português" id="pt2"></p>   
-       <p><input type="number" placeholder="3° Tri. Português" id="pt3"></p>   
-       <p id="rNotas3"></p>
-    
-   
-       <button onclick="vNotas()">Salvar</button>
+       <div class="orgDiv">
+           <h1>Verificador de Notas</h1>
+           <p><input type="number" placeholder="1° Tri. Matemática" id="mt1"> <input type="number" placeholder="2° Tri. Matemática" id="mt2"> <input type="number" placeholder="3° Tri. Matemática" id="mt3">
+           
+           <p id="rNotas1"></p>
+           <p><input type="number" placeholder="1° Tri. Hisória" id="hs1"> <input type="number" placeholder="2° Tri. Hisória" id="hs2"> <input type="number" placeholder="3° Tri. Hisória" id="hs3">
+           
+           
+           <p id="rNotas2"></p>
+           
+           <p><input type="number" placeholder="1° Tri. Português" id="pt1"> <input type="number" placeholder="2° Tri. Português" id="pt2"> <input type="number" placeholder="3° Tri. Português" id="pt3">
+           
+           
+           <p id="rNotas3"></p>
+           <button onclick="vNotas()">Verificar</button>
+       </div>
 
         <!-- ATIVIDADE 06  -->
-       <h1>Calcudarora de Fatorial</h1>
-       <p><input type="number" id="fa"></p>
-       <p id="reF"></p>
-   
-      <button onclick="cFat()">Salvar</button>
+       <div class="orgDiv">
+           <h1>Calcudarora de Fatorial</h1>
+           <p><input type="number" id="fa" placeholder="Insira o valor"></p>
+           <p id="reF"></p>
+              
+                 <button onclick="cFat()">Fatorar</button>
+       </div>
           
         <!-- ATIVIDADE 07  -->
-       <h1>Contagem regressivaaaaa</h1>
-       <p><input type="number" id="cRe"></p>
-       <p id="cReg"></p>
-   
-      <button onclick="cR()">Salvar</button>
+       <div class="orgDiv">
+           <h1>Contagem regressiva</h1>
+           <p><input type="number" id="cRe" placeholder="Insira o ultimo número"></p>
+           <p id="cReg"></p>
+              
+                 <button onclick="cR()">Contar</button>
+       </div>
           
         <!-- ATIVIDADE 08  -->
-       <h1>Tabuada</h1>
-       <p><input type="number" id="ta"></p>
-       <p id="rTa"></p>
-   
-      <button onclick="tab()">Salvar</button>
+       <div class="orgDiv">
+           <h1>Tabuada</h1>
+           <p><input type="number" id="ta" placeholder="Insira o valor"></p>
+           <p id="rTa"></p>
+              
+                 <button onclick="tab()">Calcular</button>
+       </div>
 
     <script>
         //ATIVIDADE 01
