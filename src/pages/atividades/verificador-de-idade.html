@@ -40,7 +40,24 @@
        <button onclick="vTemp()">Salvar</button>
  
        <!-- ATIVIDADE 05 -->
-          
+       <h1>Verificador de Notas</h1>
+       <p><input type="number" id="mt1"></p>   
+       <p><input type="number" id="mt2"></p>   
+       <p><input type="number" id="mt3"></p>   
+       <p><input type="number" id="hs1"></p>   
+       <p><input type="number" id="hs2"></p>   
+       <p><input type="number" id="hs3"></p>   
+       <p><input type="number" id="pt1"></p>   
+       <p><input type="number" id="pt2"></p>   
+       <p><input type="number" id="pt3"></p>   
+
+       <p id="rNotas1"></p>
+       <p id="rNotas2"></p>
+       <p id="rNotas3"></p>
+    
+   
+       <button onclick="vNotas()">Salvar</button>
+
         <!-- ATIVIDADE 06  -->
        <h1>Calcudarora de Fatorial</h1>
        <p><input type="number" id="fa"></p>
@@ -117,7 +134,39 @@
         }
 
         //ATIVIDADE 05
-        
+        function vNotas(){
+            let mat1 = parseFloat(document.getElementById('mt1').value)
+            let mat2 = parseFloat(document.getElementById('mt2').value)
+            let mat3 = parseFloat(document.getElementById('mt3').value)
+            let his1 = parseFloat(document.getElementById('hs1').value)
+            let his2 = parseFloat(document.getElementById('hs2').value)
+            let his3 = parseFloat(document.getElementById('hs3').value)
+            let port1 = parseFloat(document.getElementById('pt1').value)
+            let port2 = parseFloat(document.getElementById('pt2').value)
+            let port3 = parseFloat(document.getElementById('pt3').value)
+            
+            let resultMat = ((mat1+mat2+mat3)/3)
+            let resultHis = ((his1+his2+his3)/3)
+            let resultPor = ((port1+port2+port3)/3)
+
+            if (mat1 + mat2 + mat3 >= 60) {
+                document.getElementById(rNotas1).innerText = "Foi aprovado em matemática com " + resultMat + "pontos de média";
+            } else {
+                document.getElementById(rNotas1).innerText = "Foi reprovado em matemática com " + resultMat + "pontos de média";
+            }
+
+            if (his1 + his2 + his3 >= 60) {
+                document.getElementById(rNotas2).innerText = "Foi aprovado em história com " + resultHis + "pontos de média";
+            } else {
+                document.getElementById(rNotas2).innerText = "Foi reprovado em história com " + resultHis + "pontos de média";
+            }
+
+            if (port1 + port2 + port3 >= 60) {
+                document.getElementById(rNotas3).innerText = "Foi aprovado em português com " + resultPor + "pontos de média";
+            } else {
+                document.getElementById(rNotas3).innerText = "Foi reprovado em português com " + resultPor + "pontos de média";
+            }
+        }
 
         //ATIVIDADE 06      
         function cFat() {
@@ -151,7 +200,6 @@
             function tab(){
                 let tabu = document.getElementById('ta').value;
                 
-
                 for (let tA = 0; tA <= 10; tA++) {
                     let rTab = tabu * tA;
                     
