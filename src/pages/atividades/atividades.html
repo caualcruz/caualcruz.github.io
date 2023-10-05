@@ -14,7 +14,7 @@
         <h1>Verificador de Idade</h1>
         <p><input type="number" id="idad" placeholder="Insira a idade"></p>
         <p id="resultIdade"></p>
-        <button onclick="idd()">Verificar</button>
+        <button onclick="idd(); verifVazio()" >Verificar</button>
     </div>
 
     <!-- ATIVIDADE 02 -->
@@ -23,7 +23,7 @@
         <p class="inputOrg"><input type="number" id="nu1" placeholder="Insira o 1° número"> <input type="number" id="nu2" placeholder="Insira o 2° número"></p>
         
         <p id="compNum"></p>
-        <button onclick="compN()">Comparar</button>
+        <button onclick="compN(); verifVazio()">Comparar</button>
     </div>
 
     <!-- ATIVIDADE 03 -->
@@ -32,7 +32,7 @@
         <p><input type="number" id="di1" placeholder="Insira o 1° número"> <input type="number" id="di2" placeholder="Insira o 2° número"></p>
         
         <p id="veriDiv"></p>
-        <button onclick="vDiv()">Verificar</button>
+        <button onclick="vDiv(); verifVazio()">Verificar</button>
     </div>
 
        <!-- ATIVIDADE 04 -->
@@ -40,7 +40,7 @@
            <h1>Verificador de Temperatura</h1>
            <p><input type="number" id="te" placeholder="Indique a temperatura"></p>
            <p id="veriTemp"></p>
-           <button onclick="vTemp()">Verificar</button>
+           <button onclick="vTemp(); verifVazio()">Verificar</button>
        </div>
  
        <!-- ATIVIDADE 05 -->
@@ -58,7 +58,7 @@
            
            
            <p id="rNotas3"></p>
-           <button onclick="vNotas()">Verificar</button>
+           <button onclick="vNotas(); verifVazio()">Verificar</button>
        </div>
 
         <!-- ATIVIDADE 06  -->
@@ -67,7 +67,7 @@
            <p><input type="number" id="fa" placeholder="Insira o valor"></p>
            <p id="reF"></p>
               
-                 <button onclick="cFat()">Fatorar</button>
+                 <button onclick="cFat(); verifVazio()">Fatorar</button>
        </div>
           
         <!-- ATIVIDADE 07  -->
@@ -76,7 +76,7 @@
            <p><input type="number" id="cRe" placeholder="Insira o ultimo número"></p>
            <p id="cReg"></p>
               
-                 <button onclick="cR()">Contar</button>
+                 <button onclick="cR(); verifVazio()">Contar</button>
        </div>
           
         <!-- ATIVIDADE 08  -->
@@ -85,7 +85,7 @@
            <p><input type="number" id="ta" placeholder="Insira o valor"></p>
            <p id="rTa"></p>
               
-                 <button onclick="tab()">Calcular</button>
+                 <button onclick="tab(); verifVazio()">Calcular</button>
        </div>
 
     <script>
@@ -96,7 +96,7 @@
 
             if (idade < 18) {
                 document.getElementById('resultIdade').innerText = "Pessoa menor de idade";
-            } else if(idade < 65){
+            } else if(idade < 65){  
                 document.getElementById('resultIdade').innerText = "Pessoa adulta";
             } else{
                 document.getElementById('resultIdade').innerText = "Pessoa idosa";
@@ -214,7 +214,18 @@
                 }
             }
 
+            function verifVazio() {
+                inp = document.querySelectorAll('input')
+                
+                for (let i = 0; i < inp.length; i++) {
+                    if (inp[i].value === '') {
+                        alert('Existe algum campo vazio')
 
+                        return false;
+                    }
+                    return true
+                }
+            }
         
     </script>    
 
