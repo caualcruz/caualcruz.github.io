@@ -1,0 +1,39 @@
+.orgIn{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 400px 0px 400px;
+}
+
+button{
+    border: none;
+    box-shadow: 0 0.2rem 0.4rem gray;
+    transition: all 0.5s;
+    border-radius: 11px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.bolLeft{
+    align-items: center;
+    width: 300px;
+    float: left;
+    height: 250px;
+    margin-top: 40vh;
+    padding: 20px;
+}
+
+.bolRight{
+ align-items: center;
+ width: 600px;
+ float: right;
+ height: 400px;   
+ margin-top: 33vh;
+ padding: 20px;
+}
+
+.bolRight input{
+    margin: 0px 0px 15px 0px;
+}
