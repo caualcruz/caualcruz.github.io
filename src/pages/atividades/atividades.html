@@ -208,24 +208,29 @@
                 let tabu = document.getElementById('ta').value;
                 
                 for (let tA = 0; tA <= 10; tA++) {
-                    let rTab = tabu * tA;
-                    
-                    document.getElementById('rTa').innerHTML += rTab + " - "
-                }
-            }
-
-            function verifVazio() {
-                inp = document.querySelectorAll('input')
                 
-                for (let i = 0; i < inp.length; i++) {
-                    if (inp[i].value === '') {
-                        alert('Existe algum campo vazio')
-
-                        return false;
-                    }
-                    return true
+                
+                    document.getElementById('rTa').innerText += `${ta.value} x ${tA} = ${tabu*tA} \n`
+                  
+                  
                 }
+               
+        
+
             }
+
+            // function verifVazio() {
+            //     inp = document.querySelectorAll('input')
+                
+            //     for (let i = 0; i < inp.length; i++) {
+            //         if (inp[i].value === '') {
+            //             alert('Existe algum campo vazio')
+
+            //             return false;
+            //         }
+            //         return true
+            //     }
+            // }
         
     </script>    
 
