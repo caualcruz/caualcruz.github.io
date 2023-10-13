@@ -1,22 +1,35 @@
-.orgIn{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 0px 400px 0px 400px;
+.orgIn {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 400px 0px 400px;
 }
 
-button{
+button {
     border: none;
-    box-shadow: 0 0.2rem 0.4rem gray;
     transition: all 0.5s;
     border-radius: 11px;
 }
 
-button:hover{
+button:hover {
     transform: scale(1.1);
 }
 
-.bolLeft{
+select{
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+select:focus{
+    transform: scale(1.1);
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.bolLeft {
     align-items: center;
     width: 300px;
     float: left;
@@ -25,15 +38,43 @@ button:hover{
     padding: 20px;
 }
 
-.bolRight{
- align-items: center;
- width: 600px;
- float: right;
- height: 400px;   
- margin-top: 33vh;
- padding: 20px;
+.bolRight {
+    align-items: center;
+    width: 600px;
+    float: right;
+    height: 400px;
+    margin-top: 33vh;
+    padding: 20px;
 }
 
-.bolRight input{
+.bolRight input {
     margin: 0px 0px 15px 0px;
+}
+
+@media (max-width:1366px) {
+
+    .orgIn {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0px 200px 0px 100px;
+    }
+
+    .bolLeft {
+        align-items: center;
+        width: 300px;
+        float: left;
+        height: 250px;
+        margin-top: 30vh;
+        padding: 20px;
+    }
+    
+    .bolRight {
+        align-items: center;
+        width: 600px;
+        float: right;
+        height: 450px;
+        margin-top: 15vh;
+        padding: 10px;
+    }
 }
