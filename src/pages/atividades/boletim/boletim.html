@@ -15,15 +15,17 @@
         <div class="orgIn">
 
             <div class=" card fs-5 bolLeft">
-                <label for="nomeInstituicao">Nome</label>
+                <label for="userNome">Nome</label>
                 <input type="text" id="userNome">
                 <label for="nomeInstituicao">Escola/Instituicao</label>
                 <input type="text" id="nomeInstituicao">
-                <label for="nomeInstituicao">Curso</label>
+                <label for="nomeCurso">Curso</label>
                 <input type="text" id="nomeCurso">
+
+                <button class="card" onclick="userSave()">Salvar</button>
             </div>
 
-            <div class="p-md-4 card fs-5 bolRight">
+            <div class="p-md-4 card fs-5 bolRight input-group">
                 <label for="select">Matéria</label>
                 <select class="card" id="select" name="select">
                     <option value="portugues">Português</option>
@@ -34,12 +36,14 @@
                     <option value="arte">Arte</option>
                 </select>
                 <br><br>
-                
+
+
                 <label for="input">Notas</label>
                 <input type="number" placeholder="1° Bimestre">
                 <input type="number" placeholder="2° Bimestre">
                 <input type="number" placeholder="3° Bimestre">
                 <input type="number" placeholder="4° Bimestre">
+
 
                 <button class="card" onclick="save()">Verificar Notas</button>
                 <p class="m-3 p-2" id="resultNotas"></p>
@@ -53,7 +57,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
-        <script src="./script-boletim.js"></script>
+    <script src="./script-boletim.js"></script>
 </body>
 
 </html>

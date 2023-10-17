@@ -33,17 +33,21 @@ select:focus{
     align-items: center;
     width: 300px;
     float: left;
-    height: 250px;
-    margin-top: 40vh;
+    height: 300px;
+    margin-top: 38vh;
     padding: 20px;
+}
+
+.bolLeft button{
+    margin-top: 20px;
 }
 
 .bolRight {
     align-items: center;
     width: 600px;
     float: right;
-    height: 400px;
-    margin-top: 33vh;
+    height: 440px;
+    margin-top: 31vh;
     padding: 20px;
 }
 
