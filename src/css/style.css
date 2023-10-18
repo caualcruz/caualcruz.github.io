@@ -303,8 +303,11 @@ button:hover {
     padding-top: 20px;
 }
 
-footer{
-   height: 2px;
+.footer-C{
+   bottom: 0;
+   width: 100%;
+   margin-top: 0;
+   position: static;
 }
 
 .icons img:hover{

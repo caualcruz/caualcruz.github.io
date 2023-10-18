@@ -21,6 +21,10 @@ select{
     transition: all 0.5s;
 }
 
+#card2{
+    display: none;
+}
+
 select:focus{
     transform: scale(1.1);
 }
@@ -36,6 +40,7 @@ select:focus{
     height: 300px;
     margin-top: 38vh;
     padding: 20px;
+    margin-left: 40vh;
 }
 
 .bolLeft button{
@@ -47,12 +52,21 @@ select:focus{
     width: 600px;
     float: right;
     height: 440px;
-    margin-top: 31vh;
+    margin-top: 29vh;
     padding: 20px;
+    margin-right: 25vh;
 }
 
 .bolRight input {
     margin: 0px 0px 15px 0px;
+}
+
+.footer-C{
+    position: fixed;
+}
+
+.cardR p{
+    margin-top: 200px;
 }
 
 @media (max-width:1366px) {
