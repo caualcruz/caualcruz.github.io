@@ -5,18 +5,27 @@ let user = { nome: "", instituicao: "", curso: "" };
 
 function userSave(){
 
-  if (!verifVazio("card1")) {
+  if (!verifVazio()) {
   
   user.nome = userNome.value;
   user.instituicao = nomeInstituicao.value;
   user.curso = nomeCurso.value
   document.querySelector("#card1").style.display = "none"
   document.querySelector("#card2").style.display = "flex"
-}
+
+  function verifVazio() {
+    erro = false
+      if (user.nome && user.instituicao && user.curso == "") {
+        alert ("Existe algum campo vazio")
+        return erro;
+      }
+      return true
+      }
 }
 
+  }  
 function save() {
-  let resultados = `<b>BOLETIM DE: ${user.nome.toLocaleUpperCase()}</b><br><b>INSTITUIÇÃO/ESCOLA: ${user.instituicao.toLocaleUpperCase()} </b><b>BOLETIM DE: ${user.nome.toLocaleUpperCase()}</b><br><b>CURSO: ${user.curso.toLocaleUpperCase()} </b>`;
+  let resultados = `<b>BOLETIM DE: ${user.nome.toLocaleUpperCase()}</b><br><b>INSTITUIÇÃO/ESCOLA: ${user.instituicao.toLocaleUpperCase()} <br><b>CURSO: ${user.curso.toLocaleUpperCase()} </b>`;
   if (!verifMat()) {
     let inputNotas = [];
     let totalNotas = 0;
@@ -65,6 +74,9 @@ function save() {
     }
 
     function validNotas() {
+      document.querySelector("#resultNotas").style.display = "block"
+      document.querySelector("#card2").style.width = "1000px"
+      document.querySelector("#card2").style.marginRight = "70px"
       for (let i = 0; i < inputNotas.length; i++) {
         if (i == 0 && inputNotas[0] > 20 || inputNotas[0] < 0) {
           alert("O valor máximo do primeiro bimestre é de 20 pontos e o mínimo 0");
@@ -103,18 +115,19 @@ function verifMat(){
   return erro;
 }
 
-function verifVazio(div) {
-  let erro = false
-  let inputs = document.querySelectorAll(`.${div} input`)
-  inputs.forEach(input =>{
-    input.value == '' ? erro = true : null
-  })
 
-  erro ? alert("Existe algum campo vazio") : null;
+// function verifVazio(card1) {
+//   let erro = false
+//   let inputs = document.querySelectorAll(`.${div} input`)
+//   inputs.forEach(input =>{
+//     input.value == "" ? erro = true : null
+//   })
 
-  return erro;
+//   erro ? alert("Existe algum campo vazio") : null;
 
-}
+//   return erro;
+
+// }
 
 function isAprovadoOuReprovado(valor) {
   if (valor >= 60) {

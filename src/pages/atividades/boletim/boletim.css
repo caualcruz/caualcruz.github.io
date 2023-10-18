@@ -40,21 +40,27 @@ select:focus{
     height: 300px;
     margin-top: 38vh;
     padding: 20px;
-    margin-left: 40vh;
+    margin-left: 43vh;
 }
 
-.bolLeft button{
-    margin-top: 20px;
+#card1 button{
+margin-top: 20px;
+}
+
+.result{
+    display: none;
+    overflow-y: scroll;
+    height: 340px;
 }
 
 .bolRight {
     align-items: center;
-    width: 600px;
+    width: 700px;
     float: right;
-    height: 440px;
-    margin-top: 29vh;
+    height: 530px;
+    margin-top: 20vh;
     padding: 20px;
-    margin-right: 25vh;
+    margin-right: 22vh;
 }
 
 .bolRight input {
