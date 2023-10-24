@@ -12,5 +12,8 @@ function openContent(event, nomeArtigo) {
     event.currentTarget.className += " active";
   }
   
-  // buscando o elemento com ID aberto por padrão
+  // buscando o elemento com ID aberto por padrãox  
   document.getElementById("abertoPorPadrao").click();
+
+
+ 
