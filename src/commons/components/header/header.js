@@ -12,5 +12,5 @@ function header(){
     </nav>
 </header>`
   }
-  header()
-
+ 
+  export default header()
