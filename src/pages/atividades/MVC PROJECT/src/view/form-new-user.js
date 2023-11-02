@@ -1,31 +1,35 @@
 const formNewUser = {
-    build:(params)=>{
-        const root = document.getElementById('root')
-        const formTemplate = document.createElement('form')
-        
-        formTemplate.setAttribute("id", "signForm")
-        formTemplate.className = "form-control"
-        formTemplate.innerHTML = `
-        
-        <label for="nome" type="text" > Nome</label>
-        <input class ="form-control" type="text" id="nome">
+    build:()=>{
+       const root = document.getElementById('root');
+       const formTemplate = document.createElement('form');
+       formTemplate.className = 'form-control';
+       formTemplate.setAttribute("id","signForm");
+       formTemplate.innerHTML = `
+        <h3 class="mt-2 mb-4"> Cadastro de novo usuário </h3>
 
-        <label for="idade" type="text" > Idade</label>
-        <input class ="form-control" type="number" id="idade">
-        
-        <label for="login" type="text" > Login</label>
-        <input class ="form-control" type="text" id="login">
-
-        <label for="senha" type="text" > Senha</label>
-        <input class ="form-control" type="password" id="senha">
-        
+       <label for="nome" class="form-label">Nome</label>
+        <input class="form-control" type="text" id="nome">
+       
+       <label for="idade" class="form-label">Idade</label>
+        <input class="form-control" type="number" id="idade">
+       
+       <label for="login" class="form-label">Login</label>
+        <input class="form-control" type="text" id="login">
+       
+       <label for="senha" class="form-label">Senha</label>
+        <input class="form-control" type="password" id="senha">
+       
+        <button type="submit" class="btn btn-primary mt-4">Salvar</button>
+       
         `
-        root.appendChild(formTemplate)
+       root.appendChild(formTemplate);
     },
-
-    reload:()=>{
-        
+    update:(user)=>{
+        //ATULIZAR OS VALORES DE INPUTS PARA OS VALORES DO USUÁRIO SELECIONADO
+        nome.value = user.getNome();
+        idade.value = user.getIdade();
+        login.value = user.getLogin();
+        senha.value = user.getSenha();
     }
 }
-
 export {formNewUser}
