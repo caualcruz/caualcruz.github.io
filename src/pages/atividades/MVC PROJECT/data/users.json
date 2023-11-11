@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Cauã",
+        "idade": "17",
+        "login": "clcc",
+        "senha": "asd"
+    },
+    
+    {
+        "nome": "Gameto",
+        "idade": "17",
+        "login": "gam",
+        "senha": "asd"
+    },
+
+    {
+        "nome": "Cândido",
+        "idade": "17",
+        "login": "can",
+        "senha": "asd"
+    }
+]
