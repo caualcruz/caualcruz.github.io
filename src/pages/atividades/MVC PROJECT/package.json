@@ -1,9 +1,9 @@
 {
   "name": "mvc-project",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "parcel index.html --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +11,9 @@
   "license": "ISC",
   "dependencies": {
     "fs": "^0.0.1-security"
-  }
+  },
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  },
+  "description": ""
 }
