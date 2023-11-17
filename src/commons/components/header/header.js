@@ -8,6 +8,7 @@ function header(){
         <a class="buton to-right padding-large" href="/index.html#artigos">ARTIGOS</a>
         <a class="buton to-right padding-large" href="/index.html#projetos">PROJETOS</a>
         <a class="buton to-right padding-large" href="/src/pages/atividades/boletim/boletim.html">BOLETIM</a>
+        <a class="buton to-right padding-large" href="/src/pages/calc_consumo_viagem/consumo.html">CONSUMO</a>
         <a class="buton to-right padding-large" href="/index.html#sobre">SOBRE</a>
     </nav>
 </header>`
