@@ -1,7 +1,7 @@
 const dataService = {
     carregarDados: async () =>{
      try {
-      const response = await fetch('http://localhost:5000/api/data');
+      const response = await fetch('http://localhost:2608/api/data');
       const data = await response.json();
       return data;
      } catch (error) {
@@ -12,7 +12,7 @@ const dataService = {
 
     salvarDados: async (novosDados) =>{
       try {
-        const response = await fetch('http://localhost:5000/api/save', {
+        const response = await fetch('http://localhost:2608/api/save', {
           method: "POST",
           headers: {
             "Content-Type":"application/json",

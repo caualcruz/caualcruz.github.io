@@ -22,5 +22,11 @@
     "idade": 17,
     "login": "cauaexplosivo",
     "senha": "aasdfafasdf"
+  },
+  {
+    "nome": "Teste",
+    "idade": "23",
+    "login": "sda",
+    "senha": "asd"
   }
 ]

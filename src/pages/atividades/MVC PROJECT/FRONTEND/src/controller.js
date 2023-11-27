@@ -34,6 +34,7 @@ const handleSubmit = (event) => {
 //FUNÇÕES DE ADICIONAR, ATUALIZAR E REMOVER
 const addUser = (newUser) => {
   data.push(newUser);
+  dataService.salvarDados(data)
 };
 
 const updateUser = (index, userToUpdate) => {
