@@ -1,327 +1,79 @@
-/* css
-
-NOSSA FOLHA DE ESTILIZAÇÃO DA PÁGINA HTMLLLL
-*/
-
-
+/*FOLHA DE ESTILIZAÇÃO PRINCIPAL*/
 body {
     padding: 0;
     margin: 0;
 }
-
 body {
     font-size: 15px;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(37, 34, 34);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
-
-
 * {
     padding: 0;
 }
-
 body {
     font-size: 15px;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
-#idLogo {
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-nav a:hover {
-
-    color: rgb(0, 196, 75);
-    transition: 1.5s;
-}
-
-nav a {
-    overflow: hidden;
-    color: inherit;
-    text-decoration: none;
-    height: 40px;
-}
-
-.card {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0, 0.16),
-        0 2px 5px 0 rgba(0, 0, 0, 0, 0.16);
-}
-
-.buton {
-    white-space: normal;
-    text-align: center;
-}
-
-.nav-itens {
-    padding: 8px 16px;
+.card img{
+    height: 150px;
     width: auto;
-    border: none;
-    outline: 0;
-}
-.to-right {
-    float: right !important;
+    border-radius: 100px;
+    margin-top: 20px;
 }
 
-.to-left {
-    float: left !important;
-}
-
-.padding-large {
-    padding: 12px 24px !important;
-}
-
-.content {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 2000px;
-}
-
-
-section {
-    max-width: 800px;
-    box-sizing: inherit;
-}
-
-.padding-64 {
-    padding-top: 64px !important;
-    padding-bottom: 64px !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    margin-top: 50px;
-}
-
-p {
-    color: white;
-}
-
-#pf{
-    color: black;
-}
-
-h2 {
-    font-size: 30px;
-}
-
-.justify {
-    text-align: justify;
-}
-
-.size{
-    padding: 50px;
-}
-
-.imgOrg{
-height: 20px;
-}
-
-.center {
-    text-align: center;
-}
-
-.padding-32 {
-    padding-top: 32px !important;
-    padding-bottom: 32px !important;
-}
-
-section {
-    max-width: 800px;
-    box-sizing: inherit;
-}
-
-section p.justify {
-    width: auto;
-    margin: auto;
-    padding: 10px 100px 10px 100px;
-}
-
-#sobre {
-    background-color: rgb(83, 77, 77);
-    font-size: 20px;
-}
-
-#projetos {
-    background-color: rgb(37, 34, 34);
-    color: white;
-    
-}
-
-.divOrg{
-    padding-left: 27%;
-    display: flex;
-    gap: 40px;
-}
-
-h2 {
-    text-align: center;
-}
-
-#projetos p {
-    color: black
-}
-
-.borda-projetos .buttonOrg{
-    margin-top: 80px;
-}
-
-.borda-projetos{
-    background-color: rgb(83, 77, 77);
-    height: 300px;
-    width: 400px;
-    padding-top: 20px;
-    border-radius: 20px;
-    font-size: 20px;
-}
-
-.borda-artigos{
-    background-color: rgb(37, 34, 34) ;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
-    font-size: 20px;
-}
-
-.borda-artigos1{
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
-    font-size: 20px;
-    height: 300px;
-    width: 100%;
-}
-
-
-
-.carousel-item{
-    width: 100%;
-}
-
-.cardbox{
-    height:100%;
-}
-
-.borda-artigos-filmes{
-    background-color: rgb(37, 34, 34) ;
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
-    font-size: 20px; 
-    margin-left: 40px; 
-}
-
-.borda-artigos-esportes{
-    background-color: rgb(37, 34, 34) ;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    border-radius: 20px;
-    font-size: 20px;
-    margin-left: 40px;
-}
-
-.org-artigos-d{
+.cardLinks{
+    background-color: rgb(44, 41, 41);
+    border-radius: 5px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
-    
-}
-
-#mscimg{
-    background-image: url(../img/pexels-burst-374876.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 340px;
-    padding: 90px;
-}
-
-#fmlimg{
-    background-image: url(../img/pexels-tima-miroshnichenko-7991579.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 340px;
-    padding: 90px;
-}
-
-#espimg{
-    background-image: url(../img/pexels-tembela-bohle-1884574.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 340px;
-    padding: 90px;
-}
-
-.buttonOrg {
-    margin: 20px;
-    background-color:rgba(0, 0, 0, 0.16);
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 50px;
-    transition: 0.65s;
-    border: transparent;
-    font-size: 14px;
-    color: white;
-}
-
-button:hover {
-    background-color:rgba(0, 0, 0, 0.8);
-    color: white;
-}
-
-#artigos{
-    background-color: rgb(83, 77, 77);
-
-   
-
-}
-
-.contato1{
-    background-color: rgb(37, 34, 34);
-    height: 300px;
-}
-.icons{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    height: 90px;
-    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
-
-
-img{
-    height: 100px;
+.card{
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
 }
 
-html{
-scroll-behavior: smooth;
+.btnLink{
+    background-color: rgb(83, 77, 77);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.enviroment{
+    margin-top: 10px;
+    height: 300px;
+    overflow: auto;
 }
 
-#img1 :hover{
-    height: 110px;
+.enviroment::-webkit-scrollbar {
+    width: 10px;
 }
 
-#img2 :hover{
-    height: 110px;
-}
-#img3 :hover{
-    height: 110px;
-}
-#img4 :hover{
-    height: 110px;
+.card-body{
+    width: 400px;
 }
