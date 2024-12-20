@@ -1,0 +1,10 @@
+{
+  "name": "Cauã Cruz",
+  "short_name": "CLCC",
+  "icons": [
+    
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
